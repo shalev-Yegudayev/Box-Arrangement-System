@@ -1,0 +1,6 @@
+C:\Users\shale\Desktop\Micosoft Visual Studio Projects\BoxArrangementSystemFinal\DataStructures\bin\Debug\DataStructures.dll
+C:\Users\shale\Desktop\Micosoft Visual Studio Projects\BoxArrangementSystemFinal\DataStructures\bin\Debug\DataStructures.pdb
+C:\Users\shale\Desktop\Micosoft Visual Studio Projects\BoxArrangementSystemFinal\DataStructures\obj\Debug\DataStructures.csproj.AssemblyReference.cache
+C:\Users\shale\Desktop\Micosoft Visual Studio Projects\BoxArrangementSystemFinal\DataStructures\obj\Debug\DataStructures.csproj.CoreCompileInputs.cache
+C:\Users\shale\Desktop\Micosoft Visual Studio Projects\BoxArrangementSystemFinal\DataStructures\obj\Debug\DataStructures.dll
+C:\Users\shale\Desktop\Micosoft Visual Studio Projects\BoxArrangementSystemFinal\DataStructures\obj\Debug\DataStructures.pdb
