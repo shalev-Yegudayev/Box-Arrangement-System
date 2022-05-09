@@ -1,0 +1,13 @@
+﻿using System.Text.RegularExpressions;
+using System.Windows.Controls;
+using System.Windows.Input;
+
+namespace BoxArrangementSystemFinal.Views
+{
+    public partial class TextBoxSupplier : UserControl
+    {
+        public TextBoxSupplier() => InitializeComponent();
+
+        private void NumberValidationTextBox(object sender, TextCompositionEventArgs e) => e.Handled = new Regex("[^0-9.]+").IsMatch(e.Text);
+    }
+}

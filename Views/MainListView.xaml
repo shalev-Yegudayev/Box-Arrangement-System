@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="BoxArrangementSystemFinal.Views.MainListView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             DataContext="{Binding Source={StaticResource Locator}, Path=MainList}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Currently In Stock:" FontSize="25" FontWeight="Bold" FontFamily="Arial Black" VerticalAlignment="Top" />
+        <ListView ItemsSource="{Binding WholeStorage}" Grid.Row="1" SelectedItem="{Binding CurrentItem}" SelectionChanged="ListView_SelectionChanged"/>
+    </Grid>
+</UserControl>

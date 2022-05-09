@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="BoxArrangementSystemFinal.Views.TimeCheckView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             DataContext="{Binding Source={StaticResource Locator}, Path=TimeCheck}">
+    <Grid>
+        <TextBlock Text="Enter Time in Seconds:" FontSize="23" FontWeight="Bold" FontFamily="Arial Black" VerticalAlignment="Top" />
+        <TextBox Text="{Binding TimeCheck , Mode=TwoWay}" PreviewTextInput="NumberValidationTextBox" VerticalAlignment="Top" />
+        <Button Content="Check Storage" Command="{Binding TimeCheckClick}" FontSize="20" VerticalAlignment="Center"/>
+
+    </Grid>
+</UserControl>

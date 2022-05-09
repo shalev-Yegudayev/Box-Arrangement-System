@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="BoxArrangementSystemFinal.Views.TextBoxSupplier"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             DataContext="{Binding Source={StaticResource Locator}, Path=TextBoxes}">
+    <Grid>
+        <TextBlock Text="Enter Width:" FontSize="25" FontWeight="Bold" FontFamily="Arial Black" VerticalAlignment="Top" />
+        <TextBox Text="{Binding SupplierX, Mode=TwoWay}" PreviewTextInput="NumberValidationTextBox" VerticalAlignment="Top"/>
+
+        <TextBlock Text="Enter Height:" FontSize="25" FontWeight="Bold" FontFamily="Arial Black" VerticalAlignment="Center"/>
+        <TextBox Text="{Binding SupplierY, Mode=TwoWay}" PreviewTextInput="NumberValidationTextBox" VerticalAlignment="Center"/>
+
+        <TextBlock Text="Enter Amount:" FontSize="25" FontWeight="Bold" FontFamily="Arial Black" VerticalAlignment="Bottom" />
+        <TextBox Text="{Binding SupplierAmount, Mode=TwoWay}" PreviewTextInput="NumberValidationTextBox" VerticalAlignment="Bottom"/>
+
+    </Grid>
+</UserControl>
